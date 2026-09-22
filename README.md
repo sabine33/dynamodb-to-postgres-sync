@@ -87,7 +87,7 @@ You'll be asked for the following, each with a default value you can accept by p
 | `AWS region` | AWS region | `us-west-2` |
 | `AWS access key id` | Access key for DynamoDB | `mockKey` |
 | `AWS secret access key` | Secret key for DynamoDB (masked input) | `mockSecret` |
-| `PostgreSQL connection string` | Full Postgres connection URI | `postgresql://trayt_user:trayt_password@localhost:5432/trayt_db` |
+| `PostgreSQL connection string` | Full Postgres connection URI | `postgresql://project_user:project_password@localhost:5432/project_db` |
 | `PostgreSQL schema` | Destination schema name | `public` |
 | `DynamoDB scan page size` | Items per scan page during initial migration | `100` |
 | `Stream poll interval (ms)` | Delay between empty stream polls during CDC | `1000` |

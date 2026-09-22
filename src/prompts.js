@@ -39,7 +39,7 @@ async function promptForConfig() {
             message: "PostgreSQL connection string",
             initial:
                 process.env.PG_CONNECTION_STRING ||
-                "postgresql://trayt_user:trayt_password@localhost:5432/trayt_db",
+                "postgresql://project_user:project_password@localhost:5432/project_db",
         },
         {
             type: "text",
