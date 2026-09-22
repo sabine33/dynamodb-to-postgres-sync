@@ -1,11 +1,11 @@
-# dynamo-to-pg-sync
+# dynamodb-to-pg-sync
 
 Interactive CLI tool to migrate and continuously replicate **DynamoDB** tables into **PostgreSQL** — with connection checks, live table selection, automatic snake_case schema generation, and per-table failure isolation with a full report.
 
 Run it instantly with:
 
 ```bash
-npx dynamo-to-pg-sync
+npx dynamodb-to-pg-sync
 ```
 
 No installation required.
@@ -14,7 +14,7 @@ No installation required.
 
 ## Features
 
-- 🚀 **Zero-install usage** via `npx dynamo-to-pg-sync`
+- 🚀 **Zero-install usage** via `npx dynamodb-to-pg-sync`
 - 📝 **Interactive prompts** for every configuration value, pre-filled with sensible defaults
 - 🔎 **Connection verification** for both DynamoDB and PostgreSQL right after you answer the prompts
 - 📋 **Table discovery** — lists all DynamoDB tables and lets you migrate all of them or hand-pick specific ones
@@ -46,7 +46,7 @@ No installation required.
 Run directly without installing anything:
 
 ```bash
-npx dynamo-to-pg-sync
+npx dynamodb-to-pg-sync
 ```
 
 You'll be walked through a series of prompts, then the tool will verify connections, list your DynamoDB tables, and let you choose what to migrate.
@@ -59,12 +59,12 @@ If you prefer a local or global install instead of always using `npx`:
 
 ```bash
 # Global install
-npm install -g dynamo-to-pg-sync
-dynamo-to-pg-sync
+npm install -g dynamodb-to-pg-sync
+dynamodb-to-pg-sync
 
 # Or as a dev dependency in a project
-npm install --save-dev dynamo-to-pg-sync
-npx dynamo-to-pg-sync
+npm install --save-dev dynamodb-to-pg-sync
+npx dynamodb-to-pg-sync
 ```
 
 ---
@@ -74,7 +74,7 @@ npx dynamo-to-pg-sync
 ### 1. Launch the tool
 
 ```bash
-npx dynamo-to-pg-sync
+npx dynamodb-to-pg-sync
 ```
 
 ### 2. Answer the configuration prompts
@@ -197,7 +197,7 @@ export PG_SCHEMA="public"
 export SCAN_PAGE_SIZE=200
 export POLL_INTERVAL_MS=2000
 
-npx dynamo-to-pg-sync
+npx dynamodb-to-pg-sync
 ```
 
 ---

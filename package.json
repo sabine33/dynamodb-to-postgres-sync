@@ -1,9 +1,9 @@
 {
-  "name": "dynamo-to-pg-sync",
+  "name": "dynamodb-to-pg-sync",
   "version": "1.0.0",
   "description": "Interactive CLI to migrate/replicate DynamoDB tables into PostgreSQL",
   "bin": {
-    "dynamo-to-pg-sync": "./bin/cli.js"
+    "dynamodb-to-pg-sync": "bin/cli.js"
   },
   "main": "src/index.js",
   "files": [
