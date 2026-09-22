@@ -2,7 +2,7 @@ name: Publish Package to npmjs
 
 on:
   # 1. Replaced 'release' with 'repository_dispatch' to listen for custom API requests
-  repository_dispatch:
+  workflow_dispatch:
     types: [manual-npm-publish]
 
 jobs:
