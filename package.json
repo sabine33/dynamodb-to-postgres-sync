@@ -13,8 +13,24 @@
   "engines": {
     "node": ">=16"
   },
-  "keywords": ["dynamodb", "postgresql", "cli", "migration", "replication", "cdc"],
+  "keywords": [
+    "dynamodb",
+    "postgresql",
+    "cli",
+    "migration",
+    "replication",
+    "cdc"
+  ],
   "license": "MIT",
+  "author": "sabine33",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabine33/dynamodb-to-postgres-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sabine33/dynamodb-to-postgres-sync/issues"
+  },
+  "homepage": "https://github.com/sabine33/dynamodb-to-postgres-sync#readme",
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.600.0",
     "pg": "^8.11.5",
